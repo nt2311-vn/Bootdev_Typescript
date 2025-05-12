@@ -1,8 +1,5 @@
-function main() {
-    console.log(welcome("Toan"));
-}
-function welcome(name) {
-    return `Hello, ${name.toLowerCase()}`;
-}
-main();
+const button = document.getElementById("enable-button");
+button.addEventListener("click", () => {
+    window.supportAI.enableAutoReply();
+});
 export {};
