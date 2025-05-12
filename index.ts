@@ -1,5 +1,3 @@
-const button = document.getElementById("enable-button")!;
+import { log, chats } from "./chats.js";
 
-button.addEventListener("click", () => {
-  window.supportAI.enableAutoReply();
-});
+log(chats);

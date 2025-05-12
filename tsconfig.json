@@ -8,5 +8,6 @@
 		"esModuleInterop": true,
 		"moduleDetection": "force",
 		"noUncheckedIndexedAccess": true
-	}
+	},
+	"include": ["*.ts", "*.js"]
 }
